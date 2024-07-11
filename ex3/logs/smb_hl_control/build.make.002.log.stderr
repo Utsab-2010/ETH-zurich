@@ -1,0 +1,10 @@
+[01m[K/home/utsab/Workspaces/ETH_ROS/ex3/src/smb_hl_control/src/smb_highlevel_controller.cpp:[m[K In function ‘[01m[Kvoid callback(const ConstPtr&)[m[K’:
+[01m[K/home/utsab/Workspaces/ETH_ROS/ex3/src/smb_hl_control/src/smb_highlevel_controller.cpp:10:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[Kfor[m[K’
+   10 |     [01;31m[Kfor[m[K(int i=0;i< msg->ranges.size(); i++){
+      |     [01;31m[K^~~[m[K
+[01m[K/home/utsab/Workspaces/ETH_ROS/ex3/src/smb_hl_control/src/smb_highlevel_controller.cpp:10:17:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ was not declared in this scope
+   10 |     for(int i=0;[01;31m[Ki[m[K< msg->ranges.size(); i++){
+      |                 [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/sub_node.dir/build.make:63: CMakeFiles/sub_node.dir/src/smb_highlevel_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/sub_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

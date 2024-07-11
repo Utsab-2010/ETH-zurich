@@ -1,0 +1,23 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/utsab/Workspaces/carto_ws/install_isolated/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/utsab/Workspaces/ETH_ROS/ex1/src/smb_common/smb_common/smb_gazebo/include/**",
+        "/home/utsab/Workspaces/ETH_ROS/ex2/src/smb_hl_control/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

@@ -1,0 +1,35 @@
+[01m[K/home/utsab/Workspaces/ETH_ROS/ex3/src/smb_hl_control/src/smb_pillar_collider.cpp:[m[K In constructor ‘[01m[Ksmb_node::smb_node()[m[K’:
+[01m[K/home/utsab/Workspaces/ETH_ROS/ex3/src/smb_hl_control/src/smb_pillar_collider.cpp:31:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass ros::NodeHandle[m[K’ has no member named ‘[01m[Ksubscriber[m[K’; did you mean ‘[01m[Ksubscribe[m[K’?
+   31 |             sub = nh.[01;31m[Ksubscriber[m[K(topic,queue_size,callback);
+      |                      [01;31m[K^~~~~~~~~~[m[K
+      |                      [32m[Ksubscribe[m[K
+[01m[K/home/utsab/Workspaces/ETH_ROS/ex3/src/smb_hl_control/src/smb_pillar_collider.cpp:[m[K In member function ‘[01m[Kvoid smb_node::callback(const ConstPtr&)[m[K’:
+[01m[K/home/utsab/Workspaces/ETH_ROS/ex3/src/smb_hl_control/src/smb_pillar_collider.cpp:51:19:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kgeometry_msgs::Twist[m[K’ {aka ‘[01m[Kgeometry_msgs::Twist_<std::allocator<void> >[m[K’}
+   51 |             speeds[01;31m[K->[m[Klinear = {0,0,0};
+      |                   [01;31m[K^~[m[K
+[01m[K/home/utsab/Workspaces/ETH_ROS/ex3/src/smb_hl_control/src/smb_pillar_collider.cpp:52:19:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kgeometry_msgs::Twist[m[K’ {aka ‘[01m[Kgeometry_msgs::Twist_<std::allocator<void> >[m[K’}
+   52 |             speeds[01;31m[K->[m[Kangular->z=1;
+      |                   [01;31m[K^~[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:40[m[K,
+                 from [01m[K/home/utsab/Workspaces/ETH_ROS/ex3/src/smb_hl_control/src/smb_pillar_collider.cpp:1[m[K:
+[01m[K/home/utsab/Workspaces/ETH_ROS/ex3/src/smb_hl_control/src/smb_pillar_collider.cpp:55:56:[m[K [01;31m[Kerror: [m[K‘[01m[KPI[m[K’ was not declared in this scope
+   55 |             ROS_INFO("Need to turn by %f",ang_diff*180/[01;31m[KPI[m[K);
+      |                                                        [01;31m[K^~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:351:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+  351 |     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+      |                                                                                                                                                                     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:390:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+  390 |       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:575:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+  575 | #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+      |                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+  110 | #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+      |                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/utsab/Workspaces/ETH_ROS/ex3/src/smb_hl_control/src/smb_pillar_collider.cpp:55:13:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+   55 |             [01;36m[KROS_INFO[m[K("Need to turn by %f",ang_diff*180/PI);
+      |             [01;36m[K^~~~~~~~[m[K
+make[2]: *** [CMakeFiles/sub_node.dir/build.make:63: CMakeFiles/sub_node.dir/src/smb_pillar_collider.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/sub_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

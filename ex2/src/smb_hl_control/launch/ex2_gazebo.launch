@@ -1,0 +1,9 @@
+<launch>
+    <include file="$(find smb_gazebo)/launch/smb_gazebo.launch">
+        <arg name="laser_enabled" value="true"/>
+        <arg name="world_file" value="/usr/share/gazebo-11/worlds/robocup09_spl_field.world"/>
+    </include>
+    <rosparam command="load" file="$(find smb_hl_control)/config/param.yaml"/>
+    <node name="ex2_sub" type="sub_node" pkg="smb_hl_control" output="screen"/>
+
+</launch>

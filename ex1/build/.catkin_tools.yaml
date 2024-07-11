@@ -1,0 +1,6 @@
+devel_space: /home/utsab/Workspaces/ETH_ROS/ex1/devel
+install: false
+install_space: /home/utsab/Workspaces/ETH_ROS/ex1/install
+profile: default
+source_space: /home/utsab/Workspaces/ETH_ROS/ex1/src
+workspace: /home/utsab/Workspaces/ETH_ROS/ex1

@@ -1,0 +1,8 @@
+prefix=/home/utsab/Workspaces/ETH_ROS/ex4/devel/.private/smb_control
+
+Name: smb_control
+Description: Description of smb_control
+Version: 0.0.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

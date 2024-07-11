@@ -1,0 +1,7 @@
+[01m[K/home/utsab/Workspaces/ETH_ROS/ex3/src/smb_hl_control/src/smb_pillar_collider.cpp:[m[K In member function ‘[01m[Kvoid smb_node::callback(const ConstPtr&)[m[K’:
+[01m[K/home/utsab/Workspaces/ETH_ROS/ex3/src/smb_hl_control/src/smb_pillar_collider.cpp:54:27:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kgeometry_msgs::Twist_<std::allocator<void> >::_angular_type[m[K’ {aka ‘[01m[Kgeometry_msgs::Vector3_<std::allocator<void> >[m[K’}
+   54 |             speeds.angular[01;31m[K->[m[Kz=1;
+      |                           [01;31m[K^~[m[K
+make[2]: *** [CMakeFiles/sub_node.dir/build.make:63: CMakeFiles/sub_node.dir/src/smb_pillar_collider.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/sub_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
