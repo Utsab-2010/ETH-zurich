@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/utsab/Workspaces/ETH_ROS/ex1/src/smb_common/smb_common/smb_gazebo
+CMAKE_SOURCE_DIR = /home/utsab/Workspaces/ETH_ROS/ETH-zurich/ex1/src/smb_common/smb_common/smb_gazebo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/utsab/Workspaces/ETH_ROS/ex1/build/smb_gazebo
+CMAKE_BINARY_DIR = /home/utsab/Workspaces/ETH_ROS/ETH-zurich/ex1/build/smb_gazebo
 
 # Utility rule file for sensor_msgs_generate_messages_cpp.
 
@@ -67,6 +67,6 @@ CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean:
 .PHONY : CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean
 
 CMakeFiles/sensor_msgs_generate_messages_cpp.dir/depend:
-	cd /home/utsab/Workspaces/ETH_ROS/ex1/build/smb_gazebo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/utsab/Workspaces/ETH_ROS/ex1/src/smb_common/smb_common/smb_gazebo /home/utsab/Workspaces/ETH_ROS/ex1/src/smb_common/smb_common/smb_gazebo /home/utsab/Workspaces/ETH_ROS/ex1/build/smb_gazebo /home/utsab/Workspaces/ETH_ROS/ex1/build/smb_gazebo /home/utsab/Workspaces/ETH_ROS/ex1/build/smb_gazebo/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/utsab/Workspaces/ETH_ROS/ETH-zurich/ex1/build/smb_gazebo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/utsab/Workspaces/ETH_ROS/ETH-zurich/ex1/src/smb_common/smb_common/smb_gazebo /home/utsab/Workspaces/ETH_ROS/ETH-zurich/ex1/src/smb_common/smb_common/smb_gazebo /home/utsab/Workspaces/ETH_ROS/ETH-zurich/ex1/build/smb_gazebo /home/utsab/Workspaces/ETH_ROS/ETH-zurich/ex1/build/smb_gazebo /home/utsab/Workspaces/ETH_ROS/ETH-zurich/ex1/build/smb_gazebo/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/sensor_msgs_generate_messages_cpp.dir/depend
 

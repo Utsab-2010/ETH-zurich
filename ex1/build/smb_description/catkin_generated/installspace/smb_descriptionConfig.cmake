@@ -67,14 +67,14 @@ set(smb_description_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(smb_description_SOURCE_PREFIX /home/utsab/Workspaces/ETH_ROS/ex1/src/smb_common/smb_common/smb_description)
-  set(smb_description_DEVEL_PREFIX /home/utsab/Workspaces/ETH_ROS/ex1/devel/.private/smb_description)
+  set(smb_description_SOURCE_PREFIX /home/utsab/Workspaces/ETH_ROS/ETH-zurich/ex1/src/smb_common/smb_common/smb_description)
+  set(smb_description_DEVEL_PREFIX /home/utsab/Workspaces/ETH_ROS/ETH-zurich/ex1/devel/.private/smb_description)
   set(smb_description_INSTALL_PREFIX "")
   set(smb_description_PREFIX ${smb_description_DEVEL_PREFIX})
 else()
   set(smb_description_SOURCE_PREFIX "")
   set(smb_description_DEVEL_PREFIX "")
-  set(smb_description_INSTALL_PREFIX /home/utsab/Workspaces/ETH_ROS/ex1/install)
+  set(smb_description_INSTALL_PREFIX /home/utsab/Workspaces/ETH_ROS/ETH-zurich/ex1/install)
   set(smb_description_PREFIX ${smb_description_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/utsab/Workspaces/ETH_ROS/ex1/install/lib;/home/utsab/Workspaces/ETH_ROS/ex1/devel/lib;/home/utsab/Workspaces/carto_ws/devel_isolated/cartographer_rviz/lib;/home/utsab/Workspaces/carto_ws/install_isolated/lib;/opt/ros/noetic/lib)
+    foreach(path /home/utsab/Workspaces/ETH_ROS/ETH-zurich/ex1/install/lib;/home/utsab/Workspaces/ETH_ROS/ETH-zurich/ex1/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

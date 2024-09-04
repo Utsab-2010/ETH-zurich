@@ -1,3 +1,3 @@
-Linked: (/home/utsab/Workspaces/ETH_ROS/ex1/devel/.private/smb_control/share/smb_control/cmake/smb_controlConfig-version.cmake, /home/utsab/Workspaces/ETH_ROS/ex1/devel/share/smb_control/cmake/smb_controlConfig-version.cmake)
-Linked: (/home/utsab/Workspaces/ETH_ROS/ex1/devel/.private/smb_control/share/smb_control/cmake/smb_controlConfig.cmake, /home/utsab/Workspaces/ETH_ROS/ex1/devel/share/smb_control/cmake/smb_controlConfig.cmake)
-Linked: (/home/utsab/Workspaces/ETH_ROS/ex1/devel/.private/smb_control/lib/pkgconfig/smb_control.pc, /home/utsab/Workspaces/ETH_ROS/ex1/devel/lib/pkgconfig/smb_control.pc)
+Symlinking /home/utsab/Workspaces/ETH_ROS/ETH-zurich/ex1/devel/share/smb_control/cmake/smb_controlConfig-version.cmake
+Symlinking /home/utsab/Workspaces/ETH_ROS/ETH-zurich/ex1/devel/share/smb_control/cmake/smb_controlConfig.cmake
+Symlinking /home/utsab/Workspaces/ETH_ROS/ETH-zurich/ex1/devel/lib/pkgconfig/smb_control.pc

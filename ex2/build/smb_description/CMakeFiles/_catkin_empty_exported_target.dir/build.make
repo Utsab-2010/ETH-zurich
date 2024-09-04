@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/utsab/Workspaces/ETH_ROS/ex2/src/smb_common/smb_common/smb_description
+CMAKE_SOURCE_DIR = /home/utsab/Workspaces/ETH_ROS/ETH-zurich/ex2/src/smb_common/smb_common/smb_description
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/utsab/Workspaces/ETH_ROS/ex2/build/smb_description
+CMAKE_BINARY_DIR = /home/utsab/Workspaces/ETH_ROS/ETH-zurich/ex2/build/smb_description
 
 # Utility rule file for _catkin_empty_exported_target.
 
@@ -67,6 +67,6 @@ CMakeFiles/_catkin_empty_exported_target.dir/clean:
 .PHONY : CMakeFiles/_catkin_empty_exported_target.dir/clean
 
 CMakeFiles/_catkin_empty_exported_target.dir/depend:
-	cd /home/utsab/Workspaces/ETH_ROS/ex2/build/smb_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/utsab/Workspaces/ETH_ROS/ex2/src/smb_common/smb_common/smb_description /home/utsab/Workspaces/ETH_ROS/ex2/src/smb_common/smb_common/smb_description /home/utsab/Workspaces/ETH_ROS/ex2/build/smb_description /home/utsab/Workspaces/ETH_ROS/ex2/build/smb_description /home/utsab/Workspaces/ETH_ROS/ex2/build/smb_description/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/utsab/Workspaces/ETH_ROS/ETH-zurich/ex2/build/smb_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/utsab/Workspaces/ETH_ROS/ETH-zurich/ex2/src/smb_common/smb_common/smb_description /home/utsab/Workspaces/ETH_ROS/ETH-zurich/ex2/src/smb_common/smb_common/smb_description /home/utsab/Workspaces/ETH_ROS/ETH-zurich/ex2/build/smb_description /home/utsab/Workspaces/ETH_ROS/ETH-zurich/ex2/build/smb_description /home/utsab/Workspaces/ETH_ROS/ETH-zurich/ex2/build/smb_description/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/_catkin_empty_exported_target.dir/depend
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/utsab/Workspaces/ETH_ROS/ex3/src/smb_common_v2/smb_description
+CMAKE_SOURCE_DIR = /home/utsab/Workspaces/ETH_ROS/ETH-zurich/ex3/src/smb_common_v2/smb_description
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/utsab/Workspaces/ETH_ROS/ex3/build/smb_description
+CMAKE_BINARY_DIR = /home/utsab/Workspaces/ETH_ROS/ETH-zurich/ex3/build/smb_description
 
 # Utility rule file for roscpp_generate_messages_py.
 
@@ -67,6 +67,6 @@ CMakeFiles/roscpp_generate_messages_py.dir/clean:
 .PHONY : CMakeFiles/roscpp_generate_messages_py.dir/clean
 
 CMakeFiles/roscpp_generate_messages_py.dir/depend:
-	cd /home/utsab/Workspaces/ETH_ROS/ex3/build/smb_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/utsab/Workspaces/ETH_ROS/ex3/src/smb_common_v2/smb_description /home/utsab/Workspaces/ETH_ROS/ex3/src/smb_common_v2/smb_description /home/utsab/Workspaces/ETH_ROS/ex3/build/smb_description /home/utsab/Workspaces/ETH_ROS/ex3/build/smb_description /home/utsab/Workspaces/ETH_ROS/ex3/build/smb_description/CMakeFiles/roscpp_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/utsab/Workspaces/ETH_ROS/ETH-zurich/ex3/build/smb_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/utsab/Workspaces/ETH_ROS/ETH-zurich/ex3/src/smb_common_v2/smb_description /home/utsab/Workspaces/ETH_ROS/ETH-zurich/ex3/src/smb_common_v2/smb_description /home/utsab/Workspaces/ETH_ROS/ETH-zurich/ex3/build/smb_description /home/utsab/Workspaces/ETH_ROS/ETH-zurich/ex3/build/smb_description /home/utsab/Workspaces/ETH_ROS/ETH-zurich/ex3/build/smb_description/CMakeFiles/roscpp_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/roscpp_generate_messages_py.dir/depend
 

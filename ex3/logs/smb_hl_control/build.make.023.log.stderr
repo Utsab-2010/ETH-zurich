@@ -1,7 +1,0 @@
-[01m[K/home/utsab/Workspaces/ETH_ROS/ex3/src/smb_hl_control/src/smb_pillar_collider.cpp:[m[K In member function ‘[01m[Kvoid smb_node::callback(const ConstPtr&)[m[K’:
-[01m[K/home/utsab/Workspaces/ETH_ROS/ex3/src/smb_hl_control/src/smb_pillar_collider.cpp:55:13:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[Kspeeds[m[K’
-   55 |             [01;31m[Kspeeds[m[K.angular.z=k*ang_diff;
-      |             [01;31m[K^~~~~~[m[K
-make[2]: *** [CMakeFiles/sub_node.dir/build.make:63: CMakeFiles/sub_node.dir/src/smb_pillar_collider.cpp.o] Error 1
-make[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/sub_node.dir/all] Error 2
-make: *** [Makefile:141: all] Error 2

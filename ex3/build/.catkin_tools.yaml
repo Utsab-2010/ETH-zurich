@@ -1,6 +1,6 @@
-devel_space: /home/utsab/Workspaces/ETH_ROS/ex3/devel
+devel_space: /home/utsab/Workspaces/ETH_ROS/ETH-zurich/ex3/devel
 install: false
-install_space: /home/utsab/Workspaces/ETH_ROS/ex3/install
+install_space: /home/utsab/Workspaces/ETH_ROS/ETH-zurich/ex3/install
 profile: default
-source_space: /home/utsab/Workspaces/ETH_ROS/ex3/src
-workspace: /home/utsab/Workspaces/ETH_ROS/ex3
+source_space: /home/utsab/Workspaces/ETH_ROS/ETH-zurich/ex3/src
+workspace: /home/utsab/Workspaces/ETH_ROS/ETH-zurich/ex3

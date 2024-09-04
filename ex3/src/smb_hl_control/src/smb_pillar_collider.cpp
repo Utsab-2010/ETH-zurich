@@ -19,7 +19,7 @@ class smb_node{
             std::string topic;
             int queue_size;
 
-            ROS_INFO("HELlo");
+            ROS_INFO("Hello");
 
             if(nh.searchParam("topic",param_name)){
                 nh.getParam(param_name,topic);

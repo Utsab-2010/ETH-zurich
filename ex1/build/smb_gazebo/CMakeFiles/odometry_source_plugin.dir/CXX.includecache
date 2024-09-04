@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/utsab/Workspaces/ETH_ROS/ex1/src/smb_common/smb_common/smb_gazebo/include/smb_gazebo/OdometrySource.hpp
+/home/utsab/Workspaces/ETH_ROS/ETH-zurich/ex1/src/smb_common/smb_common/smb_gazebo/include/smb_gazebo/OdometrySource.hpp
 string
 -
 boost/thread.hpp
@@ -38,7 +38,7 @@ tf2_ros/transform_broadcaster.h
 geometry_msgs/TransformStamped.h
 -
 
-/home/utsab/Workspaces/ETH_ROS/ex1/src/smb_common/smb_common/smb_gazebo/src/OdometrySource.cpp
+/home/utsab/Workspaces/ETH_ROS/ETH-zurich/ex1/src/smb_common/smb_common/smb_gazebo/src/OdometrySource.cpp
 string
 -
 tf/tf.h
@@ -46,7 +46,7 @@ tf/tf.h
 stdlib.h
 -
 smb_gazebo/OdometrySource.hpp
-/home/utsab/Workspaces/ETH_ROS/ex1/src/smb_common/smb_common/smb_gazebo/src/smb_gazebo/OdometrySource.hpp
+/home/utsab/Workspaces/ETH_ROS/ETH-zurich/ex1/src/smb_common/smb_common/smb_gazebo/src/smb_gazebo/OdometrySource.hpp
 ignition/math/Rand.hh
 -
 

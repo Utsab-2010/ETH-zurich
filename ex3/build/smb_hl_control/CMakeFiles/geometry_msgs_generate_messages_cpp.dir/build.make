@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/utsab/Workspaces/ETH_ROS/ex3/src/smb_hl_control
+CMAKE_SOURCE_DIR = /home/utsab/Workspaces/ETH_ROS/ETH-zurich/ex3/src/smb_hl_control
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/utsab/Workspaces/ETH_ROS/ex3/build/smb_hl_control
+CMAKE_BINARY_DIR = /home/utsab/Workspaces/ETH_ROS/ETH-zurich/ex3/build/smb_hl_control
 
 # Utility rule file for geometry_msgs_generate_messages_cpp.
 
@@ -67,6 +67,6 @@ CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean:
 .PHONY : CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
 
 CMakeFiles/geometry_msgs_generate_messages_cpp.dir/depend:
-	cd /home/utsab/Workspaces/ETH_ROS/ex3/build/smb_hl_control && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/utsab/Workspaces/ETH_ROS/ex3/src/smb_hl_control /home/utsab/Workspaces/ETH_ROS/ex3/src/smb_hl_control /home/utsab/Workspaces/ETH_ROS/ex3/build/smb_hl_control /home/utsab/Workspaces/ETH_ROS/ex3/build/smb_hl_control /home/utsab/Workspaces/ETH_ROS/ex3/build/smb_hl_control/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/utsab/Workspaces/ETH_ROS/ETH-zurich/ex3/build/smb_hl_control && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/utsab/Workspaces/ETH_ROS/ETH-zurich/ex3/src/smb_hl_control /home/utsab/Workspaces/ETH_ROS/ETH-zurich/ex3/src/smb_hl_control /home/utsab/Workspaces/ETH_ROS/ETH-zurich/ex3/build/smb_hl_control /home/utsab/Workspaces/ETH_ROS/ETH-zurich/ex3/build/smb_hl_control /home/utsab/Workspaces/ETH_ROS/ETH-zurich/ex3/build/smb_hl_control/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/geometry_msgs_generate_messages_cpp.dir/depend
 

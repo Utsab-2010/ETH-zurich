@@ -1,4 +1,4 @@
 [35m[1mScanning dependencies of target sub_node[0m
 [ 50%] [32mBuilding CXX object CMakeFiles/sub_node.dir/src/smb_highlevel_controller.cpp.o[0m
-[100%] [32m[1mLinking CXX executable /home/utsab/Workspaces/ETH_ROS/ex2/devel/.private/smb_hl_control/lib/smb_hl_control/sub_node[0m
+[100%] [32m[1mLinking CXX executable /home/utsab/Workspaces/ETH_ROS/ETH-zurich/ex2/devel/.private/smb_hl_control/lib/smb_hl_control/sub_node[0m
 [100%] Built target sub_node

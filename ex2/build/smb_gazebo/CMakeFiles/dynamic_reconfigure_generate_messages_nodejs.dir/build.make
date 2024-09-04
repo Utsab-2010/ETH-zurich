@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/utsab/Workspaces/ETH_ROS/ex2/src/smb_common/smb_common/smb_gazebo
+CMAKE_SOURCE_DIR = /home/utsab/Workspaces/ETH_ROS/ETH-zurich/ex2/src/smb_common/smb_common/smb_gazebo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/utsab/Workspaces/ETH_ROS/ex2/build/smb_gazebo
+CMAKE_BINARY_DIR = /home/utsab/Workspaces/ETH_ROS/ETH-zurich/ex2/build/smb_gazebo
 
 # Utility rule file for dynamic_reconfigure_generate_messages_nodejs.
 
@@ -67,6 +67,6 @@ CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/clean:
 .PHONY : CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/clean
 
 CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/depend:
-	cd /home/utsab/Workspaces/ETH_ROS/ex2/build/smb_gazebo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/utsab/Workspaces/ETH_ROS/ex2/src/smb_common/smb_common/smb_gazebo /home/utsab/Workspaces/ETH_ROS/ex2/src/smb_common/smb_common/smb_gazebo /home/utsab/Workspaces/ETH_ROS/ex2/build/smb_gazebo /home/utsab/Workspaces/ETH_ROS/ex2/build/smb_gazebo /home/utsab/Workspaces/ETH_ROS/ex2/build/smb_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/utsab/Workspaces/ETH_ROS/ETH-zurich/ex2/build/smb_gazebo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/utsab/Workspaces/ETH_ROS/ETH-zurich/ex2/src/smb_common/smb_common/smb_gazebo /home/utsab/Workspaces/ETH_ROS/ETH-zurich/ex2/src/smb_common/smb_common/smb_gazebo /home/utsab/Workspaces/ETH_ROS/ETH-zurich/ex2/build/smb_gazebo /home/utsab/Workspaces/ETH_ROS/ETH-zurich/ex2/build/smb_gazebo /home/utsab/Workspaces/ETH_ROS/ETH-zurich/ex2/build/smb_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/depend
 

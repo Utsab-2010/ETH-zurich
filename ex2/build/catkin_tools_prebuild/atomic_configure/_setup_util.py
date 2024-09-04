@@ -268,7 +268,7 @@ if __name__ == '__main__':
 
         if not args.local:
             # environment at generation time
-            CMAKE_PREFIX_PATH = r'/home/utsab/Workspaces/ETH_ROS/ex2/devel;/home/utsab/Workspaces/carto_ws/devel_isolated/cartographer_rviz;/home/utsab/Workspaces/carto_ws/install_isolated;/opt/ros/noetic'.split(';')
+            CMAKE_PREFIX_PATH = r'/home/utsab/Workspaces/ETH_ROS/ETH-zurich/ex1/devel;/opt/ros/noetic'.split(';')
         else:
             # don't consider any other prefix path than this one
             CMAKE_PREFIX_PATH = []

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/utsab/Workspaces/ETH_ROS/ex3/devel/.private/smb_gazebo/lib/libodometry_source_plugin.pdb"
-  "/home/utsab/Workspaces/ETH_ROS/ex3/devel/.private/smb_gazebo/lib/libodometry_source_plugin.so"
+  "/home/utsab/Workspaces/ETH_ROS/ETH-zurich/ex3/devel/.private/smb_gazebo/lib/libodometry_source_plugin.pdb"
+  "/home/utsab/Workspaces/ETH_ROS/ETH-zurich/ex3/devel/.private/smb_gazebo/lib/libodometry_source_plugin.so"
   "CMakeFiles/odometry_source_plugin.dir/src/OdometrySource.cpp.o"
 )
 

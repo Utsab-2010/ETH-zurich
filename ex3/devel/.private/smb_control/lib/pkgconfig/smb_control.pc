@@ -1,4 +1,4 @@
-prefix=/home/utsab/Workspaces/ETH_ROS/ex3/devel/.private/smb_control
+prefix=/home/utsab/Workspaces/ETH_ROS/ETH-zurich/ex3/devel/.private/smb_control
 
 Name: smb_control
 Description: Description of smb_control

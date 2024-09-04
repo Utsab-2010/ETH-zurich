@@ -1,1 +1,1 @@
-/home/utsab/Workspaces/ETH_ROS/ex1/devel/.private/smb_control/share/smb_control/cmake/smb_controlConfig-version.cmake
+/home/utsab/Workspaces/ETH_ROS/ETH-zurich/ex1/devel/.private/smb_control/share/smb_control/cmake/smb_controlConfig-version.cmake

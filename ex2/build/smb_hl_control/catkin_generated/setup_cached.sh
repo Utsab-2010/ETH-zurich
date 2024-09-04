@@ -7,7 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/utsab/Workspaces/ETH_ROS/ex2/devel/.private/smb_hl_control:$CMAKE_PREFIX_PATH"
-export PWD='/home/utsab/Workspaces/ETH_ROS/ex2/build/smb_hl_control'
-export ROSLISP_PACKAGE_DIRECTORIES="/home/utsab/Workspaces/ETH_ROS/ex2/devel/.private/smb_hl_control/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/utsab/Workspaces/ETH_ROS/ex2/src/smb_hl_control:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/utsab/Workspaces/ETH_ROS/ETH-zurich/ex2/devel/.private/smb_hl_control:$CMAKE_PREFIX_PATH"
+export PWD='/home/utsab/Workspaces/ETH_ROS/ETH-zurich/ex2/build/smb_hl_control'
+export ROSLISP_PACKAGE_DIRECTORIES="/home/utsab/Workspaces/ETH_ROS/ETH-zurich/ex2/devel/.private/smb_hl_control/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/utsab/Workspaces/ETH_ROS/ETH-zurich/ex2/src/smb_hl_control:$ROS_PACKAGE_PATH"

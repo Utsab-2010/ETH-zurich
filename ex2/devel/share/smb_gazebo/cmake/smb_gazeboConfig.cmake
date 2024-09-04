@@ -1,1 +1,1 @@
-/home/utsab/Workspaces/ETH_ROS/ex2/devel/.private/smb_gazebo/share/smb_gazebo/cmake/smb_gazeboConfig.cmake
+/home/utsab/Workspaces/ETH_ROS/ETH-zurich/ex2/devel/.private/smb_gazebo/share/smb_gazebo/cmake/smb_gazeboConfig.cmake

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/utsab/Workspaces/ETH_ROS/ex1/src/smb_common/smb_common/smb_description
+CMAKE_SOURCE_DIR = /home/utsab/Workspaces/ETH_ROS/ETH-zurich/ex1/src/smb_common/smb_common/smb_description
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/utsab/Workspaces/ETH_ROS/ex1/build/smb_description
+CMAKE_BINARY_DIR = /home/utsab/Workspaces/ETH_ROS/ETH-zurich/ex1/build/smb_description
 
 # Utility rule file for std_msgs_generate_messages_lisp.
 
@@ -67,6 +67,6 @@ CMakeFiles/std_msgs_generate_messages_lisp.dir/clean:
 .PHONY : CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
 
 CMakeFiles/std_msgs_generate_messages_lisp.dir/depend:
-	cd /home/utsab/Workspaces/ETH_ROS/ex1/build/smb_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/utsab/Workspaces/ETH_ROS/ex1/src/smb_common/smb_common/smb_description /home/utsab/Workspaces/ETH_ROS/ex1/src/smb_common/smb_common/smb_description /home/utsab/Workspaces/ETH_ROS/ex1/build/smb_description /home/utsab/Workspaces/ETH_ROS/ex1/build/smb_description /home/utsab/Workspaces/ETH_ROS/ex1/build/smb_description/CMakeFiles/std_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/utsab/Workspaces/ETH_ROS/ETH-zurich/ex1/build/smb_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/utsab/Workspaces/ETH_ROS/ETH-zurich/ex1/src/smb_common/smb_common/smb_description /home/utsab/Workspaces/ETH_ROS/ETH-zurich/ex1/src/smb_common/smb_common/smb_description /home/utsab/Workspaces/ETH_ROS/ETH-zurich/ex1/build/smb_description /home/utsab/Workspaces/ETH_ROS/ETH-zurich/ex1/build/smb_description /home/utsab/Workspaces/ETH_ROS/ETH-zurich/ex1/build/smb_description/CMakeFiles/std_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/std_msgs_generate_messages_lisp.dir/depend
 
